@@ -47,7 +47,7 @@ for azione in azioni:
 		for val in lista:
 			if val==' ':
 				lista.remove(val)
-			elif val=='':
+			if val=='':
 				lista.remove(val)
 			else:
 				pass
